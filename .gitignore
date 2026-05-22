@@ -1,0 +1,8 @@
+# Ignore compiled artifacts and binary outputs
+bin/
+
+# Ignore local environment files
+.env
+
+# Ignore Go binary cache
+/go
