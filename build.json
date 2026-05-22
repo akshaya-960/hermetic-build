@@ -1,0 +1,8 @@
+{
+  "image": "docker.io/library/golang:1.26-alpine",
+  "output_binary": "my-app-arm64",
+  "env": [
+    "GOOS=linux",
+    "GOARCH=arm64"
+  ]
+}
